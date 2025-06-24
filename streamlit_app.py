@@ -4,7 +4,7 @@ import io
 
 def main():
     st.title("🪶 Feather to CSV Converter")
-    st.write("Upload a feather file to convert it to CSV format with data preview")
+    st.write("Upload a feather file to convert it to CSV format")
     
     # File uploader
     uploaded_file = st.file_uploader(
